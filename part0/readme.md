@@ -44,4 +44,4 @@ title 0.4: Nueva nota
 
 ```
 
-![Imagen del Esquema](/nuevaNota.png)
+![Imagen del Esquema](nuevaNota.png)
