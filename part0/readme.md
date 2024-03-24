@@ -35,7 +35,7 @@ title 0.4: Nueva nota
     end note
 
     browser->server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-    server-->browser: [{ contenido: "HTML es fácil", fecha: "2019-05-23" }, ...]
+    server-->browser: [{ contenido: "Hola desde Paraguay", fecha: "2024-03-24" }, ...]
 
     note over browser
         El navegador ejecuta el controlador de eventos
