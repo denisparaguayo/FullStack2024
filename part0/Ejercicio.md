@@ -85,3 +85,41 @@ title 0.5: aplicación de una sola página
 ```
 
 ![esquema de ingreso a una sola pagina](paginaUnica.png)
+
+#0.6:Nueva nota en diagrama de aplicación de una sola pagina
+
+Este diagrama representa el flujo de eventos cuando un usuario crea una nueva nota utilizando la versión de una sola página (SPA) de la aplicación
+
+```
+title 0.6: eventos cuando un usuario crea una nueva nota utilizando la versión de una sola página (SPA)
+
+
+
+
+    participant browser
+    participant server
+
+    note over browser
+        Usuario rellena el formulario y hace clic en "Guardar"
+    end note
+
+    browser->browser: Usuario completa el formulario
+
+    note over browser
+        El navegador envía una solicitud POST con la información del formulario a "exampleapp/new_note_spa"
+    end note
+
+    browser->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+    note over server
+        El servidor guarda la información recibida y retorna un mensaje de respuesta "Nota creada"
+    end note
+
+    server-->browser: {"message": "Nota creada"}
+
+    note over browser
+        spa.js agrega una nueva nota al array de notas y luego la agrega al nodo <ul>
+    end note
+```
+
+![nota SPA](notaSPA.png)
