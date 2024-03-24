@@ -4,7 +4,7 @@ Part 0: Fundamentos de las aplicaciones web
 
 Este diagrama describe la situación en la que se crea una nueva nota en la página
 
-#0.4: Nueva nota
+# 0.4: Nueva nota
 
 ```
 title 0.4: Nueva nota
@@ -51,7 +51,7 @@ title 0.4: Nueva nota
 
 ![Imagen del Esquema](nuevaNota.png)
 
-#0.5: Diagrama de aplicación de una sola página
+# 0.5: Diagrama de aplicación de una sola página
 
 Este diagrama describe la situación en la que el usuario accede a la versión de una sola página (SPA) de la aplicación de notas y cómo se obtienen y muestran los datos.
 
@@ -86,7 +86,7 @@ title 0.5: aplicación de una sola página
 
 ![esquema de ingreso a una sola pagina](paginaUnica.png)
 
-#0.6:Nueva nota en diagrama de aplicación de una sola pagina
+# 0.6:Nueva nota en diagrama de aplicación de una sola pagina
 
 Este diagrama representa el flujo de eventos cuando un usuario crea una nueva nota utilizando la versión de una sola página (SPA) de la aplicación
 
